@@ -1,0 +1,65 @@
+
+.tryst-nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh
+}
+
+.tryst-footer {
+  height: 25vh;
+}
+
+.nav-item:hover {
+  border-top: 1px solid white;
+}
+
+.nav-underline {
+  border-bottom: 1px solid white;
+  opacity: 0.1;
+}
+
+.nav-text {
+  font-family: briller, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: small;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-divider {
+  padding-top: 62px;
+  border-bottom: 1px solid white;
+  opacity: 0.1;
+}
+
+.footer {
+  min-height: 25vh;
+}
+
+.icon-pad {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.social-container {
+  display: inline-block;
+  margin: 15px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: white;
+
+  a {
+    text-decoration: none;
+    color: #940008;
+
+    .is-stacked {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      height: 50px;
+      width: 50px;
+    }
+  }
+}

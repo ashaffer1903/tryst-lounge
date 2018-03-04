@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://use.typekit.net/syv1tlv.css");
+
+html, body {
+  background-image: url("assets/images/background-black-leather.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.is-flex {
+  display: flex;
+}
+
+.flex-centered {
+  justify-content: center;
+}
+
+.flex-items-centered {
+  align-items: center;
+}
+
+.has-color-tryst {
+  color: #940008;
+}

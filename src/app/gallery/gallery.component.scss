@@ -1,0 +1,14 @@
+.gallery-context {
+  .image-container {
+    padding-top: 7vh;
+  }
+}
+
+.close-icon:hover {
+  cursor: grab !important;
+}
+
+.thumbnail:hover {
+  cursor: grab;
+  opacity: 0.4;
+}
